@@ -1,0 +1,215 @@
+header ul{
+    background: #30AADD ;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    list-style: none;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    font-size: large; 
+}
+
+
+header li img{
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 4px;
+    border: white solid 2px;
+}
+header .bob{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: white solid 2px;
+    padding: 5px;
+    border-radius: 20px; 
+    
+}
+header li a:visited{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 7px;
+}
+header li a:link{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 7px;
+    
+}
+header li:nth-child(1){
+    border: none;
+
+}
+header li a:link:hover{
+    color:cadetblue
+}
+header li a:visited:hover{
+    color:cadetblue 
+}
+header .bob:hover{
+    background-color: white;
+} 
+
+/*----------------------FOOOOOOOOOOOTER------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #30AADD;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer div:nth-child(1){
+    border : 1px solid white;
+
+}
+
+footer div:nth-child(2){
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    align-self: center;
+}
+
+footer ul{
+    list-style-type: none;
+    justify-items: center;
+    display: grid;
+}
+
+footer a{
+    text-decoration: none;
+}
+footer a:link{
+    color: white;
+}
+footer a:visited{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+
+footer li:nth-child(1){
+    grid-column: 1;
+}
+
+footer li:nth-child(2){
+    grid-column: 2;
+}
+
+footer li:nth-child(3){
+    grid-column: 3;
+    padding-right: 70px; 
+}
+
+footer li:nth-child(4){
+    grid-column: 4;
+} 
+
+footer span {
+    font-size: larger;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    justify-items: center;
+}
+/* ------------------------------------------------------------------------------ */
+
+.bodybody{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    background-color: #f16528;
+    border-radius: 20px;
+}
+.bodybody img{
+    height: 200px;
+    width: 200px;
+}
+.bodybody div{
+    justify-self: center;
+    align-self: center;
+}
+.bodybody p{
+    margin: 55px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.bodybodyapi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    background-color: #9cD91a;
+    border-radius: 20px;
+}
+.bodybodyapi img{
+    height: 200px;
+    width: 200px;
+}
+.bodybodyapi div{
+    justify-self: center;
+    align-self: center;
+}
+.bodybodyapi p{
+    margin: 55px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.bodybodyjs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    background-color: #f2bf26;
+    border-radius: 20px;
+}
+.bodybodyjs img{
+    height: 200px;
+    width: 200px;
+}
+.bodybodyjs div{
+    justify-self: center;
+    align-self: center;
+}
+.bodybodyjs p{
+    margin: 55px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.bodybodycss{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    background-color: #29a7d9;
+    border-radius: 20px;
+}
+.bodybodycss img{
+    height: 200px;
+    width: 200px;
+}
+.bodybodycss div{
+    justify-self: center;
+    align-self: center;
+}
+.bodybodycss p{
+    margin: 55px;
+    font-family: 'Times New Roman', Times, serif;
+} 

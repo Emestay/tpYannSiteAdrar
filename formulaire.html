@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <div id="ensemble">
+        <h1>CONTACTEZ NOUS</h1>
+        <form method="post" action="formulairContact" >
+            <div>
+                <label for="Nom">NOM *</label>
+                <input type="text" name="Nom" id="Nom"minlength="1"placeholder="ex:DUBOIS">
+            </div>
+    
+            <div>
+                <label for="Prénom">Prénom *</label>
+                <input type="text" name="Prénom" id="Prénom" minlength="1"placeholder="ex:Baptiste" >
+            </div>
+            <div>
+                <label for="Formation">Formation choisie * </label>
+                <input type="text" name="Formation" id="Formation" minlength="1"placeholder="Veuillez rédiger ici" >
+            </div>
+            <div>
+                <label for="liste">Vous êtes</label>
+                <select name="liste" id="liste">
+                    <option value="option1" >-Aucun-</option>
+                    <option value="option2">Salarié</option>
+                    <option value="option3">Alternant</option>
+                    <option value="option4">Demandeur d'emploi</option>
+                    <option value="option5">Partenaire</option>
+                    <option value="option6">Service RH </option>
+                </select>
+            </div>
+            <div>
+                <input type="hidden" name="MAX_FILE_SIZE" value="2000">
+                <input type="file" accept=".jpg,.png,.pdf,.doc ">
+                <input type="submit" value="TRANSFERER"><br/>
+                <span>Vous pouvez joindre un CV(en.jpg,.png,.pdf ou .doc, taille max 2 Mo)</span>
+            </div>
+            <div>
+                <label for="Formation">Formation choisie * </label>
+                <input type="text" name="Formation" id="Formation" minlength="1"placeholder="Veuillez rédiger ici" >
+            </div>
+            <div>
+                <label for="email">Email * </label>
+                <input type="email" name="email" id="email" minlength="2"placeholder="ex: monemail@gmail.com" >
+            </div>
+            <div>
+                <label for="Téléphone">Téléphone </label>
+                <input type="tel" name="Téléphone" id="Téléphone" minlength="10"placeholder="ex: 0x xx xx xx xx" >
+            </div>
+            <div>
+                <label for="Code Postal">Code Postal * </label>
+                <input type="number" name="Code Postal" id="Code Postal" minlength="5" placeholder=ex:xxxxx" >
+            </div>
+            <div>
+                <label for="Adresse"> Adresse </label>
+                <input type="text" name="Adresse" id="Adresse" minlength="2"placeholder="Veuillez écrire votre adresse ici">
+            </div>
+            <div>
+                <label for="Message"> Message * </label>
+                <input type="text" name="Message" id="Message" minlength="2" placeholder="Veuillez rédiger ici">
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox"> <label for="checkbox"> J'accepte que ADRAR Formation et ses partenaires collectent et utilisent les données personnelles renseignés dans ce formulaire.Pour plus d'information, vous pouvez consulter notre page politique de protection de données </label>
+            </div>
+            <div>
+                <input type="submit" value="ENVOYER">
+            </div>
+        </form>
+        <div id="lieux">
+            <article>
+                <h2>ADRAR FORMATION (SIÈGE)</h2>
+                <p>
+                    2 Rue Irène Joliot Curie
+                    Parc Technologique du Canal
+                    31 520 Ramonville Saint Agne
+                    Tél. : 05 62 19 20 80 </br>
+                    adrarinfo@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR MONTPELLIER</h2>
+                <p>
+                    4657 Rue de la Jeune Parque
+                    Garosud
+                    34070 Montpellier
+                    Tél. : 04 81 09 89 44<br/>
+                    montpellierinfo@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR PÔLE NUMÉRIQUE</h2>
+                <p>
+                    11 avenue de l'Europe
+                    31520 Ramonville Saint Agne
+                    Tél: 05 34 31 38 10<br/>
+                    polenumerique@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR TARBES</h2>
+                <p>
+                    « Bâtiment 411 »
+                    10 Boulevard Pierre Renaudet,
+                    65000 Tarbes
+                    Tél: 05 62 93 95 16<br/>
+                    accueiltarbes@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR TOULOUSE CENTRE</h2>
+                <p>
+                    60 Boulevard Déodat de Séverac
+                    2ème étage
+                    31300 Toulouse
+                    Tél: 05 61 13 56 46</br>
+                    accueilemploi@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR PERPIGNAN</h2>
+                <p>
+                    441 rue Aristide Bergès
+                    Bâtiment les 5 éléments - Espace Polygone
+                    66000 Perpignan
+                    Tél: 04 81 09 89 44</br>
+                    perpignaninfo@adrar-formation.com
+                </p>
+            </article>
+            <article>
+                <h2>ADRAR CARCASSONNE</h2>
+                <p>
+                    Zone du Pont Rouge - Espace Xénon
+                    11000 Carcassonne
+                    Tél: 04 81 09 89 44</br>
+                    carcassonneinfo@adrar-formation.com
+                </p>
+            </article>
+        </div>
+        <img src="images/geo.png" alt="localisation ADRAR" id="localisation">
+    </div>
+
+        
+</body>
+</html>

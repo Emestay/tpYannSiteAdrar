@@ -1,0 +1,57 @@
+#ensemble
+{
+    width: 1366px;
+    height:768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr;
+    
+    
+}
+
+
+
+h1
+{
+width: 200px;
+grid-column: 2;
+grid-row-start:1 ;
+grid-row-end:2 ;
+text-align: center;
+}
+#localisation
+{
+    grid-column: 3;
+    grid-row:3;
+}
+#lieux
+{
+    grid-column:3;
+    grid-row: 2;
+}  
+form
+{   
+    border-style: dashed double none;
+    grid-column:1 /span 2;
+    grid-row: 2 /span 4;
+    text-align:start;
+    margin: auto;
+    padding-left:50px ;
+    padding-right:50px ;
+    padding-bottom:50px ;
+    padding-top: 300px;
+  
+        
+}
+form div:first-child input
+{
+     margin-left: 60px ;
+     margin-bottom: 20px;
+}
+form div:nth-child(2) input
+{
+     margin-left:42px ;
+     margin-bottom: 20px;
+}
+
+

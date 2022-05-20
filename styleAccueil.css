@@ -1,0 +1,254 @@
+
+
+body{
+    background-image: url(web.jpg);
+}
+
+header ul{
+    border: 1px solid black;
+    background:#0477BF ;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    list-style: none;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    font-size: large;
+    padding: 30px;
+    font-size: larger;
+}
+
+header li img{
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 4px;
+    border: white solid 2px;
+}
+header .bob{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: white solid 2px;
+    padding: 5px;
+    border-radius: 20px; 
+    
+}
+header li a:visited{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 7px;
+}
+header li a:link{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 7px;
+    
+}
+header li:nth-child(1){
+    border: none;
+
+}
+header li a:link:hover{
+    color:cadetblue
+}
+header li a:visited:hover{
+    color:cadetblue 
+}
+header .bob:hover{
+    background-color: white;
+} 
+
+header .bob:nth-child(3):hover{
+    background-color: #29A7D9;
+} 
+
+header .bob:nth-child(4):hover{
+    background-color: #F16528;
+} 
+
+header .bob:nth-child(5):hover{
+    background-color: #F2BF26;
+} 
+
+header .bob:nth-child(6):hover{
+    background-color: #9CD91A;
+} 
+
+/*-------------------------------------SECTION DEV/ADRAR------------------------------------------------------------------------------------*/
+
+#box1{
+    border: 1px solid black;
+    margin: 20px;
+    background: #9cd6ec;
+    border-radius: 20px;
+}
+#box1 h2 {
+    text-align: center;
+}
+
+#box1 p{
+    padding: 20px;
+}
+#first {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: #9cd6ec;
+    border-radius: 20px;
+}
+
+#box2 h2{
+    text-align: center;
+}
+
+#sousbox {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr;
+}
+
+#concept1, #dev1 {
+    padding-top: 80px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+#concept2, #dev2{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    
+
+}
+#box2 h2{
+    font-size: xx-large;
+}
+
+#box2 h3{
+    font-size: x-large;
+}
+
+#box2 p{
+    padding-right: 50px;
+}
+#box2 ul{
+    padding-right: 50px;
+}
+#box2 ul li{
+    margin: 10px;
+}
+
+/*-------------------------------------SECTION WINDOWS------------------------------------------------------------------------------------*/
+
+#banner{
+    margin-bottom: 30px;
+    background: #9cd6ec;
+    border-radius: 20px;
+}
+
+#banner span{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+#windows{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#windows a{
+    display: flex;
+    margin: 30px;
+    filter: drop-shadow(30px 10px 4px black);
+}
+
+#windows a:hover{
+    transform: scale(1.1);
+}
+
+/*----------------------FOOOOOOOOOOOTER------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background: #0477BF;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer div:nth-child(1){
+    border : 1px solid black;
+
+}
+
+div:nth-child(2){
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat (4,1fr);
+    align-self: center;
+}
+
+ul{
+    list-style-type: none;
+    justify-items: center;
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    color: aliceblue;
+}
+
+li:nth-child(1){
+    grid-column: 1;
+}
+
+li:nth-child(2){
+    grid-column: 2;
+}
+
+li:nth-child(3){
+    grid-column: 3;
+    padding-right: 70px; 
+}
+
+li:nth-child(4){
+    grid-column: 4;
+} 
+
+footer span {
+    font-size: larger;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    justify-items: center;
+}
